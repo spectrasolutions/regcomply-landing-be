@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/early-access-users",
+      "handler": "early-access-users.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/early-access-users/count",
+      "handler": "early-access-users.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/early-access-users/:id",
+      "handler": "early-access-users.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/early-access-users",
+      "handler": "early-access-users.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/early-access-users/:id",
+      "handler": "early-access-users.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/early-access-users/:id",
+      "handler": "early-access-users.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

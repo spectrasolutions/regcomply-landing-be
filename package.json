@@ -1,0 +1,43 @@
+{
+  "name": "spectra-landing-be",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "pg": "^8.6.0",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.4.4",
+    "strapi-admin": "3.4.4",
+    "strapi-connector-bookshelf": "3.4.4",
+    "strapi-middleware-cache": "^1.5.0",
+    "strapi-plugin-content-manager": "3.4.4",
+    "strapi-plugin-content-type-builder": "3.4.4",
+    "strapi-plugin-documentation": "3.4.4",
+    "strapi-plugin-email": "3.4.4",
+    "strapi-plugin-graphql": "3.4.4",
+    "strapi-plugin-upload": "3.4.4",
+    "strapi-plugin-users-permissions": "3.4.4",
+    "strapi-provider-upload-cloudinary": "^3.6.5",
+    "strapi-utils": "3.4.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "2d35aefe-74c2-4bfa-b4dc-32a676b09781"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

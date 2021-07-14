@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "early_access_users",
+  "info": {
+    "name": "Early Access Users",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    }
+  }
+}

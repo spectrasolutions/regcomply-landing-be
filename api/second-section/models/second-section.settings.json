@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "second_sections",
+  "info": {
+    "name": "Second Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
